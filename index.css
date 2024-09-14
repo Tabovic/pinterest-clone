@@ -1,0 +1,204 @@
+header {
+    display: flex;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    z-index: 1;
+    border-bottom: none;
+    box-shadow: 1px 1px 1px rgb(210, 218, 224);
+}
+
+.left-section {
+    width: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pinterest-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    border: none;
+    margin-left: 12px;
+    transition: all 0.25s;
+}
+
+#pinterest-icon {
+    width: 35px;
+    margin-right: 8px;
+}
+
+.pinterest-icon-div p {
+    color: rgb(200, 0, 0);
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: default;
+}
+
+.watch-btn {
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 14px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.watch-btn:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.explore-btn {
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 14px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.explore-btn:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.middle-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 36px;
+}
+
+.right-section {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-btn {
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 14px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-btn:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.business-btn {
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 14px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.business-btn:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.blog-btn {
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 14px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.blog-btn:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.login-btn {
+    background-color: rgb(210, 0, 0);
+    color: white;
+    font-size: 1rem;
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: rgb(160, 0, 0);
+}
+
+.sign-up-btn {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    white-space: nowrap;
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main p {
+    margin-top: 0px;
+    font-size: 6rem;
+    font-weight: bolder;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+
+.pinterest {
+    font-size: 8rem;
+    color: rgb(200, 0, 0);
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.1));
+    animation: rotation 10s infinite linear;
+    filter: drop-shadow(0px 0px 6px rgb(160, 0, 0));
+}
+
+@keyframes rotation {
+    50% {
+      /* transform: rotate(360deg); */
+      transform: scaleX(0);
+      opacity: 0;
+    }
+    100% {
+      /* transform: rotate(0deg); */
+      transform: scaleX(1);
+      opacity: 1;
+    }
+    
+}

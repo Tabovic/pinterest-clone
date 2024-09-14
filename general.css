@@ -1,0 +1,10 @@
+body {
+    background-color: aliceblue;
+    padding: 70px 30px 0px 30px;
+    padding-bottom: 1000px;
+}
+
+p {
+    font-family: Roboto, Arial;
+    text-decoration: none;
+}

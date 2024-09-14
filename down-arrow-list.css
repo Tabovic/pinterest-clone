@@ -1,0 +1,30 @@
+/* .down-arrow-icon-div {
+    position: relative;
+}
+
+.down-arrow-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 20px;
+    position: absolute;
+    top: 32px;
+    right: -12px;
+    padding: 40px 0px 0px 10px;
+    background-color: lightblue;
+    width: 250px;
+    height: 500px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.down-arrow-list-element {
+    flex: 1;
+}
+
+.down-arrow-icon-div:active .down-arrow-list {
+    opacity: 1;
+}
+ */

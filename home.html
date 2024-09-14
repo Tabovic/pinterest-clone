@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="./general.css">
+    <link rel="stylesheet" href="./home-header.css">
+    <link rel="stylesheet" href="./home-body.css">
+    <link rel="stylesheet" href="./down-arrow-list.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="left-section">
+            <div class="pinterest-icon-div">
+                <img id="pinterest-icon" src="./assets/icon-images/Pinterest.svg.png" alt="">
+            </div>
+            <button class="home-btn">Home</button>
+            <a href="./create.html"><button class="create-btn">Create</button></a>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <div>
+                <img class="search-icon" src="./assets/icon-images/search-icon.svg" alt="">
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="notification-icon-div icon-tooltip-container">
+                <img id="notification-icon" src="./assets/icon-images/notification-bell-ring-1.png" alt="">
+                <div class="notification-number">32</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <div class="message-icon-div  icon-tooltip-container">
+                <img id="message-icon" src="./assets/icon-images/messages-icon.svg" alt="">
+                <div class="tooltip">Messages</div>
+            </div>
+            <div class="profile-div  icon-tooltip-container">
+                <div id="profile"><p>T</p></div>
+                <div class="tooltip">Your Profile</div>
+            </div>
+            <!-- <a href="../index.html"><button class="logout-btn">Log out</button></a> -->
+
+            <div class="dropdown down-arrow-icon-div icon-tooltip-container">
+                <img src="./assets/icon-images/down-arrow-56.png" onclick="myFunction()" id="down_arrow-icon" class="dropbtn">
+                <div class="tooltip">Accounts and more options</div>
+                <div id="myDropdown" class="dropdown-content">
+                    <a class="down-arrow-list-element element1">Profile</a>
+                    <a class="down-arrow-list-element element2">Settings</a>
+                    <a class="down-arrow-list-element element3">Home feed tuner</a>
+                    <a class="down-arrow-list-element element4">Install the Windows app</a>
+                    <a class="down-arrow-list-element element5">Reports and violations center</a>
+                    <a class="down-arrow-list-element element6">Your privacy rights</a>
+                    <a class="down-arrow-list-element element7" href="./index.html">Log out</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/31736372370069903/" target="_blank">
+                    <img class="image" src="./assets/images/01.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/49961877110621524/" target="_blank">
+                    <img class="image" src="./assets/images/02.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/68746597124/" target="_blank">
+                    <img class="image" src="./assets/images/03.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/155303888103363978/" target="_blank">
+                    <img class="image" src="./assets/images/04.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/890868370033682349/" target="_blank">
+                    <img class="image" src="./assets/images/05.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/1266706139888736/" target="_blank">
+                    <img class="image" src="./assets/images/06.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/30680841207018419/" target="_blank">
+                    <img class="image" src="./assets/images/07.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/68746597124/" target="_blank">
+                    <img class="image" src="./assets/images/08.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/568790627954690570/" target="_blank">
+                    <img class="image" src="./assets/images/09.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/200058408443140179/" target="_blank">
+                    <img class="image" src="./assets/images/10.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/4292562139182772/" target="_blank">
+                    <img class="image" src="./assets/images/11.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/50384089575133289/" target="_blank">
+                    <img class="image" src="./assets/images/12.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/17170042323853641/" target="_blank">
+                    <img class="image" src="./assets/images/13.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/4925880836434406/" target="_blank">
+                    <img class="image" src="./assets/images/14.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/6544361953289693/" target="_blank">
+                    <img class="image" src="./assets/images/15.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/155303888113574070/" target="_blank">
+                    <img class="image" src="./assets/images/16.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/391109548909260529/" target="_blank">
+                    <img class="image" src="./assets/images/17.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/740631101254380599/" target="_blank">
+                    <img class="image" src="./assets/images/18.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/346566133837323671/" target="_blank">
+                    <img class="image" src="./assets/images/19.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/191262315424177061/" target="_blank">
+                    <img class="image" src="./assets/images/20.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/1477812372915367/" target="_blank">
+                    <img class="image" src="./assets/images/21.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/47217496090958096/" target="_blank">
+                    <img class="image" src="./assets/images/22.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/53550683062562091/" target="_blank">
+                    <img class="image" src="./assets/images/23.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/952581758663979905/" target="_blank">
+                    <img class="image" src="./assets/images/24.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/492649952344954/" target="_blank">
+                    <img class="image" src="./assets/images/25.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/98516310595986742/" target="_blank">
+                    <img class="image" src="./assets/images/26.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/2181499815364983/" target="_blank">
+                    <img class="image" src="./assets/images/27.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/54254370505803457/" target="_blank">
+                    <img class="image" src="./assets/images/28.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/68747877066/" target="_blank">
+                    <img class="image" src="./assets/images/29.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/140806232105589/" target="_blank">
+                    <img class="image" src="./assets/images/30.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/904519906404052350/" target="_blank">
+                    <img class="image" src="./assets/images/31.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/12384967722130018/" target="_blank">
+                    <img class="image" src="./assets/images/32.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/563018697554144/" target="_blank">
+                    <img class="image" src="./assets/images/33.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/1407443628697114/" target="_blank">
+                    <img class="image" src="./assets/images/34.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image-box">
+                <a href="https://tr.pinterest.com/pin/563018697546833/" target="_blank">
+                    <img class="image" src="./assets/images/35.jpg" alt="">
+                </a>
+                <button class="image-save-btn">Save</button>
+                <div class="image-share-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/share-icon.svg" alt="">
+                    <div class="tooltip">Share</div>
+                </div>
+                <div class="image-download-btn  icon-tooltip-container">
+                    <img src="./assets/icon-images/download.svg" alt="">
+                    <div class="tooltip">Download</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
